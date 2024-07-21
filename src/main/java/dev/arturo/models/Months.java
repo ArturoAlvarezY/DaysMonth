@@ -1,8 +1,13 @@
 package dev.arturo.models;
 
-public class Months {
+public  abstract class Months {
     String monthName;
     Integer days;
+
+    public Months(String monthName, Integer days) {
+        this.monthName = monthName;
+        this.days = days;
+    }
 
     public String getMonthName() {
         return monthName;
@@ -17,12 +22,9 @@ public class Months {
     public void setDays(Integer days) {
         this.days = days;
     }
-    public Months(String monthName, Integer days) {
-        this.monthName = monthName;
-        this.days = days;
-    }
-
     
+    public abstract void obtainMonth(int monthNumber);
+
 
     
 }
