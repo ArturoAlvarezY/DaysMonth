@@ -11,7 +11,7 @@ public class Main {
 
         System.out.println(userInput.getMonthName());
 
-        System.out.println(userInput.getDays());
+        System.out.println(userInput.getMonthName());
      
 }
 }
