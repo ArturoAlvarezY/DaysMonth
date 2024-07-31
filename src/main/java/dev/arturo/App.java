@@ -14,9 +14,6 @@ public final class App {
      * @param args The arguments of the program.
      */
     public static void main(String[] args) {
-        MonthNumber monthNumber = new MonthNumber();
-
-        System.out.println(monthNumber.daysAndMonth(13));
-        System.out.println(monthNumber.daysAndMonth(3));
+       
     }
 }
